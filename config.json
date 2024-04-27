@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "golang-clean-architecture"
+  },
+  "web": {
+    "prefork": false,
+    "port": 7000
+  },
+  "log": {
+    "level": 6
+  },
+  "database": {
+    "username": "postgres",
+    "password": "haris123",
+    "host": "localhost",
+    "port": 5432,
+    "name": "rent_gpu",
+    "pool": {
+      "idle": 10,
+      "max": 100,
+      "lifetime": 300
+    }
+  }
+}
